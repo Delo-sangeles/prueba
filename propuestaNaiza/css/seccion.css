@@ -1,0 +1,28 @@
+
+.seccion1{
+    background-color:#f0f3f2fa;
+    max-width:70%;
+    margin-bottom:20px;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow:0 3px 6px 3px rgba(0,0,0,.1); 
+}
+@media screen and (max-width:800px){
+    .seccion2{
+max-width:100%;
+    }
+    .seccion1{
+        max-width:100%;
+       margin-left: 0;
+    }
+}
+@media screen and (max-width:400px){
+    .seccion2{
+max-width:100%;
+    }
+    .seccion1{
+        max-width:100%;
+       margin-left: 0;
+    }
+}
